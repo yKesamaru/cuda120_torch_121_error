@@ -1,11 +1,13 @@
 # `CUDA 12.0`, `Pytorch 2.1.0`の組み合わせにおける`__nvJitLinkAddData_12_1`が見つからないエラーと回避方法
 
-![](assets/eye_catch.png)
+![](https://raw.githubusercontent.com/yKesamaru/cuda120_torch_121_error/master/assets/eye_catch.png)
 
 ## はじめに
 `CUDA 12.0`, `Pytorch 2.1.0`の組み合わせにおいて、以下のようなエラーが発生し、Pytorchが使用できない事があります。
 
 https://discuss.pytorch.org/t/pytorch-for-cuda-12/169447
+
+https://github.com/pytorch/pytorch/issues/111469
 
 自身の備忘録ですが、本家Issue以外に情報がなさそうだったので共有します。
 
